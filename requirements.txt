@@ -1,0 +1,29 @@
+# Datos y cálculo científico
+numpy
+pandas
+scipy
+
+# Visualización
+matplotlib
+seaborn
+
+# Aprendizaje supervisado y persistencia del preprocesamiento
+scikit-learn
+joblib
+
+# Redes neuronales: Keras se utiliza mediante tensorflow.keras
+tensorflow>=2.16,<3
+tensorboard
+
+# Optimización de hiperparámetros y gráficos de Optuna
+optuna
+plotly
+
+# Notebooks y widgets
+notebook
+ipykernel
+ipywidgets
+
+# Imágenes y barras de progreso
+pillow
+tqdm

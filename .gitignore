@@ -1,0 +1,42 @@
+# Entornos virtuales y configuración local
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Archivos temporales y de editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# Resultados locales de entrenamiento
+logs/
+runs/
+tensorboard_logs/
+lightning_logs/
+wandb/
+mlruns/
+checkpoints/
+*.ckpt
+*.h5
+*.keras
+*.joblib
+*.pkl
